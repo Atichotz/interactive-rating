@@ -1,0 +1,1 @@
+async function confirmAlert(e,n,o){var t=!1;return await Swal.fire({icon:e,title:n,text:o,showDenyButton:!0,denyButtonText:"\u0e44\u0e21\u0e48\u0e43\u0e0a\u0e48",confirmButtonText:"\u0e43\u0e0a\u0e48"}).then(i=>{i.isConfirmed&&(t=!0)}),t}function contest(){Swal.fire("Good job!","You clicked the button!","success")}
